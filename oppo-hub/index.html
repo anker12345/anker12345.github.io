@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OPPO Hub</title>
+<style>
+  :root { --bg: #f6f8fc; --text: #1c2333; --muted: #5d6679; --accent: #4a6cf0; --card: #fff; --line: #dde3ee; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #11151d; --text: #e7ecf6; --muted: #9aa5bb; --accent: #7d95ff; --card: #1b2130; --line: #2a3345; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.8 system-ui, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  p.lead { color: var(--muted); margin: 0 0 32px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 24px; margin-bottom: 16px; }
+  h2 { font-size: 18px; margin: 0 0 8px; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 14px; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>OPPO Hub</h1>
+  <p class="lead">個人が自分のためだけに使う、タスクと通知のまとめ役ツールです。</p>
+
+  <section>
+    <h2>何をするアプリか</h2>
+    <p>持ち主の Google ドライブ・GitHub・Discord の更新情報を集め、手元の端末上のダッシュボードにタスクとして整理します。一般には公開しておらず、利用者は開発者本人のみです。</p>
+  </section>
+
+  <section>
+    <h2>Google アカウントで使う権限</h2>
+    <ul>
+      <li>ドライブのファイルのメタ情報（名前・更新日時・更新者）の読み取り … 更新の通知に使います。ファイルの中身は読みません。</li>
+      <li>このアプリが作成したファイルの作成・更新 … 資料とバックアップの保存に使います。ほかのファイルには触れません。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>関連ページ</h2>
+    <p><a href="privacy.html">プライバシーポリシー</a></p>
+  </section>
+
+  <footer>連絡先: <a href="https://github.com/anker12345">GitHub @anker12345</a></footer>
+</main>
+</body>
+</html>
